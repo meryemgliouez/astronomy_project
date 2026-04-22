@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Découverte de l'Univers - AstroPassion</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> <!-- Lien vers la bibliothèque CSS Bootstrap pour faciliter la mise en page -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="astronomie.html">AstroPassion</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="astronomie.html">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="decouverte.html">Découverte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="evenements.html">Événements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="observation.html">Observation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bannière -->
+    <header class="hero text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Découverte de l'Univers</h1>
+            <p class="lead">Explorez les merveilles infinies du cosmos</p>
+        </div>
+    </header>
+
+    <!-- Contenu principal -->
+    <section class="container my-5">
+        <h2 class="text-center">Les Mystères du Cosmos</h2>
+        <div class="row mt-4"> <!-- Ligne Bootstrap pour organiser les colonnes avec une marge en haut -->
+
+            <div class="col-md-4"><!-- Colonne pour l'élément 1 -->
+                <div class="card"><!-- Carte Bootstrap pour présenter du contenu visuel et textuel -->
+                    <img src="systeme-solaire.jpg" class="card-img-top" alt="Système solaire">
+                    <div class="card-body"><!-- Corps de la carte contenant le texte -->
+                        <h5 class="card-title">Le Système Solaire</h5>
+                        <p class="card-text">Découvrez les planètes qui gravitent autour du Soleil et leurs caractéristiques uniques.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="galaxie.jpg" class="card-img-top" alt="Galaxies">
+                    <div class="card-body">
+                        <h5 class="card-title">Les Galaxies</h5>
+                        <p class="card-text">Des milliards d'étoiles organisées en galaxies fascinantes, comme la Voie Lactée.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="BlackHole.jpg" class="card-img-top" alt="Trous noirs">
+                    <div class="card-body">
+                        <h5 class="card-title">Les Trous Noirs</h5>
+                        <p class="card-text">Des objets cosmiques mystérieux avec une gravité si intense que rien ne peut s’en échapper.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 AstroPassion - Tous droits réservés</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
